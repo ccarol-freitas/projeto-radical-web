@@ -10,7 +10,7 @@ body {
     height: 50px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -127,6 +127,74 @@ button.slick-next {
     background-color: transparent;
 }
 
-.slider-principal{
+.slider-principal {
     width: 100%;
+}
+
+ul.slick-dots li {
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    border: 3px solid #d6d6d6;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: #f9a332;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-dots {
+    position: absolute !important;
+    top: 90% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {
+    display: none !important;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    color: #9a9a9a;
+    text-align: center;
+}
+
+.texto-destaque p {
+    color: #9a9a9a;
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    /* padding: 20px; */
+    border: 1px solid #ccc;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-card {
+    /* padding: 2px 16px; */
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
 }
