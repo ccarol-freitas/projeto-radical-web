@@ -12,7 +12,8 @@ body {
 
 main, .content {
     margin: 0 auto;
-    width: 980px;
+    /* width: 980px; */
+    widows: 100%;
     position: relative;
 }
 
@@ -36,7 +37,8 @@ main, .content {
 
 .header-2 {
     background-color: #fff;
-    width: 980px;
+    /* width: 980px; */
+    widows: 100%;
     margin: 0 auto;
     padding: 16px;
 }
