@@ -197,7 +197,8 @@ li.slick-active button {
     height: 300px;
     border: 1px solid #c5c5c5;
     padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
+    padding-bottom: 100px;
     margin-left: 10px;
 }
 
@@ -221,7 +222,6 @@ h3 {
 
 .bloco-imagens-texto {
     background-color: #eeeeee;
-    padding-bottom: 40px;
 }
 
 .bloco-imagens-texto:before {
@@ -323,6 +323,19 @@ h3 {
     height: 300px;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-bloco {
+    transition: 0.3s;
+    flex: 0 1 400px;
+    margin: 5px;
+    height: 300px;
+}
+
 .card:hover {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
@@ -397,4 +410,23 @@ h3 {
 .btn-comprar i {
     float: right;
     padding-top: 12px;
+}
+
+@media only screen and (max-width: 640px) {
+    .redes-sociais {
+        top: 2px;
+        position: absolute;
+        left: 178px;
+    }
+    .texto-destaque p {
+        padding: 10px;
+    }
+    .busca {
+        width: 57%;
+        padding: 10px;
+    }
+    .slider-principal div {
+        height: 300px;
+        width: 400px;
+    }
 }
