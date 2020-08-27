@@ -1,7 +1,8 @@
-body {
+body, html {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .menu-principal {
@@ -12,7 +13,7 @@ body {
 
 main, .content {
     margin: 0 auto;
-    widows: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -30,13 +31,13 @@ main, .content {
 }
 
 .redes-sociais {
-    width: 21.4rem;
+    width: 17.4rem;
     float: right;
 }
 
 .header-2 {
     background-color: #fff;
-    widows: 100%;
+    width: 100%;
     margin: 0 auto;
     padding: 16px;
 }
