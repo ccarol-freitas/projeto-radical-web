@@ -422,12 +422,18 @@ h3 {
     .texto-destaque p {
         padding: 10px;
     }
-    .busca {
-        width: 57%;
+    .busca input {
         padding: 10px;
+        position: absolute;
+        left: 189px;
+        top: 5px;
+        width: 40%;
     }
-    .slider-principal div {
-        height: 300px;
-        width: 400px;
-    }
+}
+
+.slider-principal div {
+    height: 300px;
+    width: 400px;
+}
+
 }
